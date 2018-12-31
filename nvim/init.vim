@@ -28,6 +28,7 @@ set secure
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'tpope/vim-vinegar'
 Plug 'vim-airline/vim-airline'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 call plug#end()
 
 " https://jeffkreeftmeijer.com/vim-number/
