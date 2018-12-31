@@ -29,6 +29,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'tpope/vim-vinegar'
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'rafi/awesome-vim-colorschemes'
 call plug#end()
 
 " https://jeffkreeftmeijer.com/vim-number/
@@ -99,3 +100,7 @@ inoremap <Leader>% <Esc>:vsp<CR><C-w><C-w>:term<CR>
 tnoremap <Leader>" <C-\><C-n>:sp<CR><C-w><C-w>:term<CR>
 noremap <Leader>" :sp<CR><C-w><C-w>:term<CR>
 inoremap <Leader>" <Esc>:sp<CR><C-w><C-w>:term<CR>
+
+colorscheme jellybeans
+
+
